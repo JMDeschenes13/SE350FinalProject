@@ -17,13 +17,20 @@
             </button>
             <div class="collapse navbar-collapse" id="main-navigation">
                 <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features">Features</a>
+                    </li>
                     
                     <li class="nav-item">
-                        <a class="nav-link" href="#documentsAndImages">Documents</a>
+                        <a class="nav-link " data-mdb-smooth-scroll-init="True" href="#documents" >Documents</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#designs">Designs</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#teamSection">Team</a>
                     </li>
+                    
                 </ul>
             </div>
         </nav>
@@ -32,13 +39,38 @@
             <div class="description">
                 <h1>Pet Health Tracker</h1>
                 <p>A new way to track your pet's health.</p>
-                <button class="btn btn-outline-secondary btn-lg" onclick="document.location='#documentsAndImages'">Learn More</button>
+                <button class="btn btn-outline-secondary btn-lg" onclick="document.location='#features'">Learn More</button>
             </div>
         </header>
-        <a id="documentsAndImages"></a>
+        <a id="features"></a>
         <div class="container features">
+            <header class="display-1 section-title text-center">App Features</header>
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <h3 class="feature-title">Appointment Scheduling</h3>
+                    <img src="imgs/scheduleAppointment.jpg" class="img-fluid" width="300" height="575">
+                    <p>Easily schedule vet appointments for your pets</p>
+                   
+                </div>
+                
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <h3 class="feature-title">Dog Park Locator</h3>
+                    <img src="imgs/findDogPark.jpg" class="img-fluid" width="300" height="575">
+                    <p>Find dog parks in your area with the click of a button</p>
+                   
+                </div>
+                
+                
+                
+                </div>
+                
+            </div>
             
-            <div class="row">
+        </div>
+        <a id="documents"></a>
+        <div class="container features">
+            <header class="display-1 section-title text-center">Reports</header>
+            <div class="row justify-content-center">
                 <div class="col-lg-4 col-md-4 col-sm-12">
                     <h3 class="feature-title">Assignment 2 Report</h3>
                     <img src="imgs/documentIcon.jpg" class="img-fluid" width="100" height="125">
@@ -56,8 +88,10 @@
                 </div>
             </div>
         </div>
+        <a id="designs"></a>
         <div class="container features">
-            <div class="row">
+            <header class="display-1 section-title text-center">Designs</header>
+            <div class="row justify-content-center">
                 <div class="col-lg-4 col-md-4 col-sm-12">
                     <h3 class="feature-title">Initial Design</h3>
                     <img src="imgs/initialDesign.jpg" class="img-fluid" width="300" height="575">
@@ -79,35 +113,42 @@
         </div>
 
         <div class="container features">
-            <h3 class="feature-title">Final Design Prototype Video</h3>
-            <video width="640" height="480" controls>
-                <source src="vids/prototypeVideo.mp4" type="video/mp4">
-                
-            </video>
+            <header class="display-1 section-title text-center">Demonstration Video</header>
+           
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-4 col-sm-12 justify-content-center">
+                    <h3 class="feature-title text-center">Final Design Prototype Video</h3>
+                <video class="justify-content-center" width="640" height="480" controls>
+                    <source src="vids/prototypeVideo.mp4" type="video/mp4">
+                </video>
+                </div>
+            </div>
         </div>
         <div class="background">
+            
             <a id="teamSection"></a>
+            <header class="display-1 section-title text-center">Meet The Team</header>
             <div class="container team">
-                <div class="row">
+                <div class="row justify-content-center">
                     <div class="card col-lg-3 col-md-3 col-sm-4 text-center">
-                        <img class="card-img-top rounded-circle" src="imgs/jonahImage.jpg" alt="Card image">
+                        <img class="card-img-top rounded-circle" src="imgs/jonahImage.jpg" alt="Card image" width="175" height="175">
                         <div class="card-body">
                             <h4 class="card-title">Jonah Deschenes</h4>
-                            <p class="card-text"></p>
+                            <p class="card-text">Software Engineering</p>
                         </div>
                     </div>
                     <div class="card col-lg-3 col-md-3 col-sm-4 text-center">
                         <img class="card-img-top rounded-circle" src="imgs/personIcon.jpg" alt="Card image">
                         <div class="card-body">
-                            <h4 class="card-title">TJ Leibsch</h4>
-                            <p class="card-text"></p>
+                            <h4 class="card-title">TJ Liebsch</h4>
+                            <p class="card-text">Software Engineering</p>
                         </div>
                     </div>
                     <div class="card col-lg-3 col-md-3 col-sm-4 text-center">
                         <img class="card-img-top rounded-circle" src="imgs/personIcon.jpg" alt="Card image">
                         <div class="card-body">
                             <h4 class="card-title">Travis Loukusa</h4>
-                            <p class="card-text"></p>
+                            <p class="card-text">Software Engineering</p>
                         </div>
                     </div>
                 </div>
